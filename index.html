@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Quản lý khóa học</title>
+</head>
+<body>
+    <div class="courses">
+        <h2>Danh sách khóa học</h2>
+        <div class="courses-ds">
+            <ul id="list-courses">
+                <!-- <li class="course-item-${course.id}">
+                    <div class='courses-text'>
+                        <h4>${course.name}</h4>
+                        <p>${course.description}</p>
+                    </div> 
+                    <div class='del-edit'>
+                        <button onclick="handlePutCourse(${course.id})">Sửa</button>
+                        <button onclick="handleDeleteCourse(${course.id})">Xóa</button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    
+        <div class="add">
+            <!-- <form action="" id="update-from" class="update-from"> -->
+            <div class="name">
+                <label>Name:</label>
+                <input type="text" name="name">
+            </div>
+            <!-- </form> -->
+            <!-- <form action="" id="update-from" class="update-from"> -->
+            <div class="description">
+                <label>Description:</label>
+                <input type="text" name="description">
+            </div>
+            <!-- </form> -->
+            <!-- <form action="" id="update-from" class="update-from"> -->
+            <div class="btn">
+                <button type="button" id="create" class="block">Create</button>
+                <button type="button" id="save" class="none">Save</button>
+            </div>
+            <!-- </form> -->
+        </div>
+    </div>
+
+
+    <!-- <script src="./main.js"></script>   -->
+    <script src="./main2.js"></script>
+</body>
+</html>

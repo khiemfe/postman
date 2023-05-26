@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.courses {
+    width: 500px;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 50px;
+    /* display: grid; */
+    /* place-items: center; */
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+.courses h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.courses-ds {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#list-courses {
+    width: 100%;
+    list-style: none;
+    font-size: 18px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+#list-courses li {
+    width: 100%;
+    padding: 5px 40px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-text {
+    width: 85%;
+}
+
+.courses-text h4, .courses-text p {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.del-edit button {
+    display: block;
+}
+
+.add {
+    padding: 0 50px;
+}
+
+.name, .description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name label, .description label {
+    font-style: italic;
+}
+
+.description {
+    margin-top: 8px;
+}
+
+input {
+    padding: 3px 8px;
+    outline: none;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn button {
+    padding: 8px 12px;
+}
+
+/* #create {
+    display: block;
+} */
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
