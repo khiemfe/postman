@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "name": "HTML/CSS",
+      "description": "Thiết kế giao diện website",
+      "id": 1
+    },
+    {
+      "name": "Javascrip",
+      "description": "Sử lý các sự kiện trong giao diện website",
+      "id": 2
+    },
+    {
+      "name": "ReactJS",
+      "description": "Một thư viện thiết kế website của Facebook",
+      "id": 3
+    },
+    {
+      "name": "NodeJS",
+      "description": "Sử dụng trong Backend",
+      "id": 4
+    },
+    {
+      "name": "PHP",
+      "description": "Thiết kế webtite hoàn chỉnh",
+      "id": 5
+    },
+    {
+      "name": "Python",
+      "description": "Một trong những ngôn ngữ lập trình phổ biến nhất hiện nay",
+      "id": 6
+    }
+  ]
+}
